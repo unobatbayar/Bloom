@@ -1,5 +1,5 @@
-# Pmnch-9X-
-2019 Fintech Week Hackathon, Team Pmnch 9X 
+# Bloom
+2019 Fintech Week Hackathon, Team Bloom
 
 How to access:
 ```
@@ -10,6 +10,3 @@ How to access:
 
 It's just prototype, it's always subject to change, rebase, and even change stack.
 
-
-var members = [" Steven Lua", " Larisa Budaeva", " Uno Batbayar", " Leare Song", " Bach Adylbekov"]; 
-var team = "Pmnch 9X";
