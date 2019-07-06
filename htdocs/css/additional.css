@@ -1,11 +1,18 @@
-#welcometokonple {
-    border: 2px solid black;
-    padding: 70px;
+#welcometobloom {
+    border: 2px solid #7eeacd;
+    padding: 120px;
     background-repeat: no-repeat;
     background-size: auto;
-    background-color: black;
-    }    
-    
+    background-color: #7eeacd;
+}   
+
+#aboutus {
+  border: 2px solid white;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: white;
+}     
 
 a {
         color: #42cef4;

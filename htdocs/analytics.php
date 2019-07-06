@@ -9,7 +9,7 @@ session_start();
 <?php 
     include 'include/sources.php';
 ?>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -29,22 +29,25 @@ session_start();
         ]);
         var total = google.visualization.arrayToDataTable([
           ['Constitutes', 'Total'],
-          ['Non-governmental organisation (NGO)',   472],
+          ['Non-governmental Organisation (NGO)',   472],
+          ['Academic, Research and Training Institutes (ART)', 124],
           ['Healthcare Professionals Associations (HCPA)',      42],
           ['Private Sector (PS)',  38],
-          ['Academic, Research and Training Institutes (ART)', 124],
           ['Donors and Foundations (D&F)',    25],
-          ['Multilateral Organisations (MO)',    13],
           ['Partner Countries (PC)',    21],
+          ['Multilateral Organisations (MO)',    13],
           ['Adolescents and Youth (A&Y)',    5],
-        //   ['Total',    740],
 
         ]);
 
         var options = {
           title: '',
           is3D: true,
+    
+          
+          
         };
+        
 
         var chart = new google.visualization.PieChart(document.getElementById('total'));
         var chart2 = new google.visualization.PieChart(document.getElementById('ngo'));
@@ -52,7 +55,7 @@ session_start();
         chart.draw(total, options);
         chart2.draw(ngo, options);
       }
-    </script>
+    </script> -->
 </head>
 <body>
 <!-- Header -->
@@ -63,18 +66,18 @@ session_start();
             <div class="uk-container uk-text-center">    
                 <p id="contact"></p>
                 <h1> 
-                <img src="include/analytics.png" alt="Smiley face" height="100" width="100"> Analytics</h1>
-                <h3> Big data, tracking data, progress data and analytics </h3>
+                <img src="Images/analytics.png" alt="Smiley face" height="100" width="100"> Analytics</h1>
+                <h3> Maternal, new-born and child health data, checkups and progress with visual analysis </h3>
             </div>
         </div>
 </div>
 
 <!-- VISUALISE DATA -->
 <div class="uk-background uk-padding uk-text-center uk-text-emphasis">
-    <h3> Non-govermental organisations (NGO) </h3>
-    <div id="ngo" style="width: 1200px; height: 700px;"></div>
+    <!-- <h3> Non-govermental organisations (NGO) </h3>
+    <div id="ngo" style="width: 1200px; height: 1500px;"></div>
     <h3> Total </h3>
-    <div id="total" style="width: 1200px; height: 700px;"></div>
+    <div id="total" style="width: 1200px; height: 200px;"></div> -->
 
 </body>
 </html> 

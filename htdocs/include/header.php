@@ -1,17 +1,24 @@
-<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+<?php
+	require 'sources.php';
+?> 
+<!-- navigation -->
+    <nav class="uk-navbar uk-visible@l" data-uk-sticky="" style="background:white">
+    <ul class="uk-navbar-nav" >
+        <li>
+            <a href="../index" style="text-decoration:none ">
+            <h1><img class="uk-border-square" width="170" height="170" title="Bloom" src="../Images/bloom.png"></h1>
+            </a> 
+        </li>
+        <li>
+    </ul>
     
-    <nav class="uk-navbar-container">
-        <div class="uk-container uk-container-expand">
-            <div uk-navbar>
-                <ul class="uk-navbar-nav">
-                    <p uk-margin>
-                    <li class="uk-active"><a class="uk-button uk-button-default" href="../index">Home</a></li>
-                    <li class="uk-active"><a class="uk-button uk-button-default" href="/chatbot">Healthcare AI</a></li>
-                    <li class="uk-active"><a class="uk-button uk-button-default" href="../analytics">Analytics</a></li>
-                    <li class="uk-active"><a class="uk-button uk-button-default" onclick="document.getElementById('contact').innerHTML = Contact()"> Team</a></li>
-                    </p>
-                </ul>
-            </div>
-        </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav"> 
+        <li ><a href="patient"> <font color="black" size="2" >Patient Data</font></a></li>  
+        <li ><a href="analytics"> <font color="black" size="2" >Analytics</font></a></li>  
+        <li ><a href="add"><button class="uk-button uk-button-primary uk-button-small"><font color="#ffffff" size="2.5" >add patient</font></button></a></li> 
+        </ul>
+    </div>
     </nav>
-</div>
+<!-- navigation ends -->
+
