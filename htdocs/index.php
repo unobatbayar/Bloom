@@ -1,9 +1,9 @@
 <?php 
 session_start();
 
-if (isset($_POST['send'])) { 
-    $message = $this->mysqli->escape_string($_POST['message']);
-}
+// if (isset($_POST['send'])) { 
+//     $message = $this->mysqli->escape_string($_POST['message']);
+// }
 ?>
 <!DOCTYPE html>
 <html>
