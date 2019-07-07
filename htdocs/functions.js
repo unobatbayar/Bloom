@@ -11,7 +11,7 @@ function talk() {
   var exceptions = ["Sorry, please ask again", "Would you like to change the language?",
    "Do you need emergency treatment?", "How are you feeling?", 
    "Please tell me your symptoms", "Please do not worry", "Everything will be fine",
-   "Please teach me", "I didn't catch that",]; 
+   "Please teach me", "I didn't catch that"]; 
   var num = Math.floor((Math.random() * 5) + 1);
 
   document.getElementById("input").value = "";

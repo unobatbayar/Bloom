@@ -1,15 +1,12 @@
-<?php 
-session_start();
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
 <title>Chatbot</title>
 <?php 
     include 'include/sources.php';
+    require 'include/config.php';
 ?>
-<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -43,9 +40,6 @@ session_start();
         var options = {
           title: '',
           is3D: true,
-    
-          
-          
         };
         
 
@@ -55,7 +49,7 @@ session_start();
         chart.draw(total, options);
         chart2.draw(ngo, options);
       }
-    </script> -->
+    </script>
 </head>
 <body>
 <!-- Header -->
@@ -74,10 +68,10 @@ session_start();
 
 <!-- VISUALISE DATA -->
 <div class="uk-background uk-padding uk-text-center uk-text-emphasis">
-    <!-- <h3> Non-govermental organisations (NGO) </h3>
-    <div id="ngo" style="width: 1200px; height: 1500px;"></div>
+    <h3> Non-govermental organisations (NGO) </h3>
+    <div id="ngo" style="width: 1000px; height: 700px;"></div>
     <h3> Total </h3>
-    <div id="total" style="width: 1200px; height: 200px;"></div> -->
+    <div id="total" style="width: 1000px; height: 700px;"></div>
 
 </body>
 </html> 

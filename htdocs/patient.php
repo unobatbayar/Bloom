@@ -1,6 +1,5 @@
 <?php 
-session_start();
-
+    require 'include/config.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +13,6 @@ session_start();
 <!-- Header -->
 <div class="uk-section-primary uk-preserve-color">
 <?php include 'include/header.php'; ?>
-
         <div class="uk-section uk-light">
             <div class="uk-container uk-text-center">    
                 <p id="contact"></p>
@@ -27,6 +25,11 @@ session_start();
 
 <!-- VISUALISE DATA -->
 <div class="uk-background uk-padding uk-text-center uk-text-emphasis">
+</div>
 
+<?php 
+    include 'include/footer.php';
+    include 'include/offcanvas.php';
+?>
 </body>
 </html> 

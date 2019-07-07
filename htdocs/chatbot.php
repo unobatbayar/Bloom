@@ -1,5 +1,5 @@
 <?php 
-session_start();
+require 'include/config.php';
 
 ?>
 <!DOCTYPE html>
@@ -19,8 +19,8 @@ session_start();
             <div class="uk-container uk-text-center">    
                 <p id="contact"></p>
                 <h1> 
-                <img src="Images/dr.png" alt="Smiley face" height="100" width="100"> Healthcare AI</h1>
-                <h3> Experienced Healthcare Artificial Intelligence at global scale</h3>
+                Healthcare AI</h1>
+                <!-- <h3> Experienced Healthcare Artificial Intelligence at global scale</h3> -->
             </div>
         </div>
 </div>

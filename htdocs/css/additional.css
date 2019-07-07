@@ -1,18 +1,37 @@
 #welcometobloom {
     border: 2px solid #7eeacd;
-    padding: 120px;
+    padding: 230px;
     background-repeat: no-repeat;
     background-size: auto;
     background-color: #7eeacd;
 }   
 
 #aboutus {
+  border: 2px solid #2984ef;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #2984ef;
+} 
+#team {
   border: 2px solid white;
   padding: 50px;
   background-repeat: no-repeat;
   background-size: auto;
   background-color: white;
-}     
+}   
+#product {
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: white;
+  background-image: url("../Images/pregnant.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}    
 
 a {
         color: #42cef4;
