@@ -1,9 +1,17 @@
 #welcometobloom {
     border: 2px solid #7eeacd;
-    padding: 250px;
+    padding: 210px;
     background-repeat: no-repeat;
     background-size: auto;
     background-color: #7eeacd;
+} 
+
+#tabnavigations {
+  border: 2px solid #7eeacd;
+  padding: 70px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #7eeacd;
 }   
 
 #aboutus {

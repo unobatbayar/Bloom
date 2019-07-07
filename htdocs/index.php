@@ -1,6 +1,9 @@
 <?php 
 require 'include/config.php';
 
+// Deleter
+    // if($mysqli->query("DELETE FROM patients WHERE name='asdf'")){
+    // echo 'done'; }
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,14 +19,7 @@ require 'include/config.php';
 <?php include 'include/header.php'; ?>
 <!-- Big Header -->
 <div id="welcometobloom" class="uk-text-center">
-    <h1 class="uk-heading-primary">
-        <!-- <img src="Images/m4.png" alt="Smiley face" height="100" width="100"> 
-        <img src="Images/m1.png" alt="Smiley face" height="100" width="100">
-        <font color="black"> Bloom 
-        <img src="Images/m2.png" alt="Smiley face" height="100" width="100">
-        <img src="Images/m3.png" alt="Smiley face" height="100" width="100">  -->
-    </h1>
-    <h3 class="uk-heading uk-text-bold"><font size="5"> Creating global access to high-grade maternal, newborn and child health care through technology</h3> 
+    <h1 class="uk-heading uk-text-bold"><font size="8" color="white"> Helping pregnant women and new born babies in developing countries </font></h1> 
     <h4></h4> 
     <h1> <a class="uk-button uk-button-secondary" href="chatbot"><img src="Images/chat.png" alt="Smiley face" height="25" width="25"> Chat now</a> </h1>
 </div>
@@ -33,10 +29,9 @@ require 'include/config.php';
     <h1 class="uk-heading-primary uk-text-center" id="ourstory"><font color="#7eeacd"> Our story</h1>    
         <div class="uk-card uk-card-default uk-card-small">
                 <div class="uk-text-left uk-card-small uk-card-body uk-text-break">
-                We are a hackathon team with mission to accelerate global access to high-grade maternal, newborn and child health care through disruptive technology; Such as Artificial Intelliegence, Internet Protocols, and Big Data. <code> happiness = bloom.save(child); </code>
+                <font size="5"> We aim to help pregant women, doctors, NGOs. Our app Bloom helps women in developing countries through AI bot that they can talk to throughout their pregnancy. Using API that caters to all development front-end applications.<code> happiness = bloom.save(women, babies); </code></font>
                 </div>
         </div>
-
 </div>
 <!----> 
 <!-- Product -->
@@ -46,9 +41,9 @@ require 'include/config.php';
         <dt><img src="Images/chat.png" alt="Smiley face" height="100" width="100"></dt>
         <dd>Healthcare Artificial Intelligence</dd>
         <dt><img src="Images/note.png" alt="Smiley face" height="100" width="100"></dt>
-        <dd>Patient tracking and accesss.</dd>
+        <dd>Patient registration, tracking and preventation.</dd>
         <dt><img src="Images/analytics.png" alt="Smiley face" height="100" width="100"></dt>
-        <dd>Big data analytics</dd>
+        <dd>Analysis</dd>
     </dl>
 
 </div>
@@ -60,11 +55,11 @@ require 'include/config.php';
     <div class="uk-container">
         <td class="width="50%" valign="left">
         <ul class="uk-list uk-text-large"><h1>
-                <li><img src="Images/steven.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> Steven Lua</li>
-                <li><img src="Images/larisa.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> Larisa Budaeva</li>
-                <li><img src="Images/uno.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> Uno Batbayar</li>
-                <li><img src="Images/bach.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> Bach Adylbekov</li>
-                <li><img src="Images/song.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: twitter; ratio: 2"></span> Leare Song</li></h1>
+                <li><img src="Images/steven.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> <a href="https://www.linkedin.com/in/stevenlua/">Steven Lua</a></li>
+                <li><img src="Images/larisa.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> <a href="https://www.linkedin.com/in/larisa-budaeva-0a175a66/">Larisa Budaeva</a></li>
+                <li><img src="Images/uno.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> <a href="https://www.linkedin.com/in/unobatbayar/">Uno Batbayar</a></li>
+                <li><img src="Images/bach.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: linkedin; ratio: 2"></span> <a href="https://www.linkedin.com/in/bahadylbekov/">Bach Adylbekov</a></li>
+                <li><img src="Images/song.png" alt="Smiley face" height="70" width="70"><span uk-icon="icon: twitter; ratio: 2"></span> <a href="https://twitter.com/SongLeare">Leare Song</a></li></h1>
         </ul>
         <div uk-lightbox>
             <a class="uk-button uk-button-primary" href="Images/pregnant.png">together we can</a>

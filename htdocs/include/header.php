@@ -2,7 +2,7 @@
 	require 'sources.php';
 ?> 
 <!-- Desktop navigation -->
-    <nav class="uk-navbar uk-visible@l" data-uk-sticky="" style="background:white">
+    <nav class="uk-navbar " data-uk-sticky="" style="background:white">
     <ul class="uk-navbar-nav" >
         <li>
             <a href="../index" style="text-decoration:none ">
@@ -27,7 +27,7 @@
 
 
 <!-- Mobile navigation -->
-<nav class="uk-navbar uk-hidden@s" uk-navbar style="background:white">
+<!-- <nav class="uk-navbar uk-hidden@s" uk-navbar style="background:white">
 
 		<div class="uk-navbar-right">
 			<a uk-toggle="target: #mobile-header"><font color="black"> <span uk-icon="icon: menu; ratio: 2.5"></span> </font>  </a>
@@ -47,5 +47,5 @@
         </ul>
 	</div>
 </div>
-</div>
+</div> -->
 <!-- navigation ends -->
