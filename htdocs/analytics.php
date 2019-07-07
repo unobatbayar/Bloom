@@ -6,50 +6,30 @@
     include 'include/sources.php';
     require 'include/config.php';
 ?>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['timeline']});
       google.charts.setOnLoadCallback(drawChart);
-
       function drawChart() {
+        var container = document.getElementById('timeline');
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
 
-        var ngo = google.visualization.arrayToDataTable([
-          ['Region', 'Members'],
-          ['Africa Region',     147],
-          ['Americas Region',     126],
-          ['South East Asia Region', 87],
-          ['Europe',  71],
-          ['Eastern Mediterranean',      29],
-          ['Western Pacific Region',    12],
-        //   ['Total',    7]
-
-        ]);
-        var total = google.visualization.arrayToDataTable([
-          ['Constitutes', 'Total'],
-          ['Non-governmental Organisation (NGO)',   472],
-          ['Academic, Research and Training Institutes (ART)', 124],
-          ['Healthcare Professionals Associations (HCPA)',      42],
-          ['Private Sector (PS)',  38],
-          ['Donors and Foundations (D&F)',    25],
-          ['Partner Countries (PC)',    21],
-          ['Multilateral Organisations (MO)',    13],
-          ['Adolescents and Youth (A&Y)',    5],
-
-        ]);
-
-        var options = {
-          title: '',
-          is3D: true,
-        };
+        dataTable.addColumn({ type: 'string', id: 'President' });
+        dataTable.addColumn({ type: 'date', id: 'Start' });
+        dataTable.addColumn({ type: 'date', id: 'End' });
+        dataTable.addRows([
+          [ 'Joan Doe', new Date(2019, 5, 21), new Date(2020, 2, 4) ],
+          [ 'Adela Jumana', new Date(2018, 11, 29), new Date(2019, 8, 25) ],
+          [ 'Lorisa Jane',  new Date(2019, 1, 2),  new Date(2019, 9, 24) ],
+          [ 'Jefferson',  new Date(2019, 7, 7),  new Date(2020, 2, 4) ]
         
+        ]);
 
-        var chart = new google.visualization.PieChart(document.getElementById('total'));
-        var chart2 = new google.visualization.PieChart(document.getElementById('ngo'));
-
-        chart.draw(total, options);
-        chart2.draw(ngo, options);
+        chart.draw(dataTable);
       }
     </script>
+
 </head>
 <body>
 <!-- Header -->
@@ -68,10 +48,7 @@
 
 <!-- VISUALISE DATA -->
 <div class="uk-background uk-padding uk-text-center uk-text-emphasis">
-    <h3> Non-govermental organisations (NGO) </h3>
-    <div id="ngo" style="width: 1000px; height: 700px;"></div>
-    <h3> Total </h3>
-    <div id="total" style="width: 1000px; height: 700px;"></div>
-
+    <h1> Births coming up </h1>
+    <div id="timeline" style="height: 1200px;"></div>
 </body>
 </html> 

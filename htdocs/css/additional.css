@@ -1,18 +1,19 @@
 #welcometobloom {
     border: 2px solid #7eeacd;
-    padding: 230px;
+    padding: 250px;
     background-repeat: no-repeat;
     background-size: auto;
     background-color: #7eeacd;
 }   
 
 #aboutus {
-  border: 2px solid #2984ef;
-  padding: 50px;
+  border: 2px solid white;
+  padding: 200px;
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: #2984ef;
+  background-color: white;
 } 
+
 #team {
   border: 2px solid white;
   padding: 50px;
@@ -24,14 +25,16 @@
   padding: 50px;
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: white;
-  background-image: url("../Images/pregnant.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #403f40;
 }    
+
+#chatbot {
+  border: 2px solid white;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: white;
+} 
 
 a {
         color: #42cef4;

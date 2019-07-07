@@ -19,7 +19,7 @@
 <table class="uk-table uk-text-center">
 <td width="100%" valign="center">
 	<h1><img src="Images/plane.png" alt="Smiley face" height="50" width="50"> Add a Patient </h1>
-	<p> Register and track health <span class="uk-label uk-label-success">Bloom</span> </p>
+	<p> Register and track health <span class="uk-label uk-label-success">+</span> </p>
 	<form class="uk-form" action="add.php" method="POST" >  
 		<div class="uk-margin">
 			<div class="uk-inline">

@@ -16,16 +16,19 @@ class User{
 
         if($this->mysqli->query("INSERT INTO patients (baby_due_date, blood_type, born, health_status, name)" 
         . "VALUES ('$baby_due_date', '$blood_type', '$born', '$health_status', '$name')")){
-            echo 'success';
+            header('Location: ../index');
+            echo 'successful';
+
         }
         else{
+            header('Location: ../index');
             echo 'unsuccessful';
         }
 
     }
     
     public function output_data(){
-        
+
     }
 }
 

@@ -30,9 +30,9 @@ require 'include/config.php';
 
 <!-- About us -->
 <div id="aboutus" class="uk-text-center">
-    <h1 class="uk-heading-primary uk-text-left" id="ourstory"><font color="white"> Our story</h1>    
+    <h1 class="uk-heading-primary uk-text-center" id="ourstory"><font color="#7eeacd"> Our story</h1>    
         <div class="uk-card uk-card-default uk-card-small">
-                <div class="uk-text-left uk-card-body uk-text-break">
+                <div class="uk-text-left uk-card-small uk-card-body uk-text-break">
                 We are a hackathon team with mission to accelerate global access to high-grade maternal, newborn and child health care through disruptive technology; Such as Artificial Intelliegence, Internet Protocols, and Big Data. <code> happiness = bloom.save(child); </code>
                 </div>
         </div>
@@ -41,14 +41,14 @@ require 'include/config.php';
 <!----> 
 <!-- Product -->
 <div id="product" class="uk-text-center">
-    <h1 class="uk-heading-primary uk-text-center" id="ourstory"><font color="white"> Our product</h1>    
-    <dl class="uk-description-list uk-description-list-divider uk-text-large uk-text-left">
-        <dt><img src="Images/chat.png" alt="Smiley face" height="100" width="100"> Healthcare Artificial Intelligence</dt>
-        <dd>Artificial Intelligence Dr. Botson available at anytime, treating mothers and child.</dd>
-        <dt><img src="Images/note.png" alt="Smiley face" height="100" width="100"> Patient tracking and accesss</dt>
-        <dd>We can add patients instantly, track their progress and calculate baby's due date.</dd>
-        <dt><img src="Images/analytics.png" alt="Smiley face" height="100" width="100"> Big data analytics</dt>
-        <dd>We can create analytics and understand our patients more to scale our services</dd>
+    <h1 class="uk-heading-primary uk-text-center uk-text-left" id="ourstory"><font color="white"> Our product</h1>    
+    <dl class="uk-description-list uk-description-list-divider uk-text-large uk-text-center">
+        <dt><img src="Images/chat.png" alt="Smiley face" height="100" width="100"></dt>
+        <dd>Healthcare Artificial Intelligence</dd>
+        <dt><img src="Images/note.png" alt="Smiley face" height="100" width="100"></dt>
+        <dd>Patient tracking and accesss.</dd>
+        <dt><img src="Images/analytics.png" alt="Smiley face" height="100" width="100"></dt>
+        <dd>Big data analytics</dd>
     </dl>
 
 </div>
@@ -73,7 +73,7 @@ require 'include/config.php';
     </div>  
     <div class="uk-container">
         <td width="50%" valign="center">
-        <img class="uk-border-square" width="900" height="900" src="../images/team.png">
+        <img class="uk-border-square" width="900" height="900" src="../Images/team.png">
         Bloom (2019)    
         </td>
     </div>

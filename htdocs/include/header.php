@@ -14,12 +14,12 @@
 
     <div class="uk-navbar-right">
         <ul class="uk-navbar-nav"> 
-        <li ><a href="index#ourstory"> <font color="#7eeacd" size="2" >Our story</font></a></li>  
-        <li ><a href="index#product"> <font color="#7eeacd" size="2" >Our product</font></a></li>  
-        <li ><a href="chatbot"> <font color="#2984ef" size="2" >Healthcare AI</font></a></li>  
-        <li ><a href="patient"> <font color="#2984ef" size="2" >Patient Data</font></a></li>  
-        <li ><a href="analytics"> <font color="#2984ef" size="2" >Analytics</font></a></li>  
-        <li ><a href="add"><button class="uk-button uk-button-primary uk-button-small"><font color="#ffffff" size="2.5" >add patient</font></button></a></li> 
+        <!-- <li ><a href="index#ourstory"> <font color="#7eeacd" size="2" >Our story</font></a></li>  
+        <li ><a href="index#product"> <font color="#7eeacd" size="2" >Our product</font></a></li>   -->
+        <li ><a href="chatbot"> <font color="#7eeacd" size="2" >Healthcare AI</font></a></li>  
+        <li ><a href="patient"> <font color="#7eeacd" size="2" >Patient Data</font></a></li>  
+        <li ><a href="analytics"> <font color="#7eeacd" size="2" >Analytics</font></a></li>  
+        <li ><a href="add"><button class="uk-button uk-button-secondary uk-button-small"><font color="#ffffff" size="2.5" >add patient</font></button></a></li> 
         </ul>
     </div>
     </nav>
