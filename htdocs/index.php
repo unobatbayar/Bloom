@@ -41,9 +41,9 @@ require 'include/config.php';
         <dt><img src="Images/chat.png" alt="Smiley face" height="100" width="100"></dt>
         <dd>Healthcare Artificial Intelligence</dd>
         <dt><img src="Images/note.png" alt="Smiley face" height="100" width="100"></dt>
-        <dd>Patient registration, tracking and preventation.</dd>
+        <dd>Patient registration, tracking and preventive healthcare.</dd>
         <dt><img src="Images/analytics.png" alt="Smiley face" height="100" width="100"></dt>
-        <dd>Analysis</dd>
+        <dd>Analysis, reporting and learning  </dd>
     </dl>
 
 </div>
