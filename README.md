@@ -1,5 +1,5 @@
 # Bloom
-2019 Fintech Week Hackathon, Team Bloom
+London Fintech Week 2019 Hackathon, Team Bloom
 
 How to access:
 ```
