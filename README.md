@@ -16,7 +16,7 @@ Next step: I need to expand my stack heavily with React.js, AWS, REST APIs and T
 
 ![alt text](https://github.com/unobatbayar/Bloom/blob/master/Images/c2.png)
 
-![alt text](https://github.com/unobatbayar/Bloom/blob/master/Images/a.png)
+![alt text](https://github.com/unobatbayar/Bloom/blob/master/Images/aa.png)
 
 ![alt text](https://github.com/unobatbayar/Bloom/blob/master/Images/c.png)
 
