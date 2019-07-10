@@ -7,6 +7,7 @@ How to access:
 2) Clone the repository and copy it to your htdocts folder
 3) Go to localhost in your browser
 ```
+This is only a half of the Hackathon project. API and Telegram Chatbot with Mobile calling needs to be uploaded here from  Bach Adylbekov.
 
 It's just prototype, it's always subject to change, rebase, and even change stack.
 Next step: I need to expand my stack heavily with React.js, AWS, REST APIs and TenserFlow.
