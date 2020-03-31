@@ -7,7 +7,7 @@
     <a href="https://github.com/unobatbayar/team-bloom/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> and the team for networking and experience. </sub>
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> and the team for networking, learning and experience. </sub>
 </div>
 
 ## How to access
