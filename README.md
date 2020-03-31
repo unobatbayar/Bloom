@@ -10,7 +10,8 @@
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> and the team for networking and experience. </sub>
 </div>
 
-##How to access:
+## How to access
+
 ```
 1) Launch your XAMPP (https://www.apachefriends.org/index.html)
 2) Clone the repository and copy it to your htdocts folder
