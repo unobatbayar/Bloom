@@ -1,3 +1,15 @@
+<div align="center">
+  <h1><code>team-bloom</code></h1>
+
+  <strong>Team bloom's project for the <a href="https://www.fintechweek.com/">London Fintech Week 2019 Hackathon</a></strong>
+
+<h3>
+    <a href="https://github.com/unobatbayar/team-bloom/pull/new/master">Contribute</a>
+  </h3>
+
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> in part of algorithms and data-structures foundation.  </sub>
+</div>
+
 # Bloom
 London Fintech Week 2019 Hackathon, Team Bloom
 
